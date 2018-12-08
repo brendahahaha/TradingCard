@@ -1,0 +1,57 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7e5040"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:layout_width="900sp"
+        android:layout_height="900sp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+
+        android:src="@drawable/shiba" />
+
+    <TextView
+        android:id="@+id/shiba_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="18dp"
+        android:background="#ffffff"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text=" ★ Black Shiba Inu ★ "
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/cutepupper_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="119dp"
+        android:layout_marginBottom="11dp"
+        android:background="#ffffff"
+        android:text=" cute pupper "
+        android:textSize="20sp" />
+
+
+    <TextView
+        android:id="@+id/bark_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="441dp"
+        android:layout_above="@id/cutepupper_text_view"
+        android:background="#ffffff"
+        android:text=" bark "
+        android:textSize="30sp" />
+
+</RelativeLayout>
+
+
+
